@@ -7,7 +7,7 @@ The following project consists in a Restful API written in Java for creation, se
 The project has been developed and tested with the following:
 
     -Maven 3.6
-    -Java versão 1.8.0-221
+    -Java 1.8.0-221
     -Docker 2.1.0.5
 To see the results, install OpenLDAP Server (LDAPAdmin in case you're using Windows)
 
