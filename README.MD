@@ -33,7 +33,7 @@ Run the following command:
 
 Check the Open LDAP Server to see if the OU has been created.
 
-#### 3-Deploy da API
+#### 3-API Deployment
 On the root folder of the project, run the following:
 
 	mvn package
@@ -44,7 +44,7 @@ A .jar file will be created inside the target folder. To start it, run the follo
 
 The API will be available on localhost at port 8080.
 
-#### API Usage
+### API Usage
 
 **Create user**
 Creates an user on the **OU Users.**
