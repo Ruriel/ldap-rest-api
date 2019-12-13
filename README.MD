@@ -48,8 +48,11 @@ The API will be available on localhost at port 8080.
 
 **Create user**
 Creates an user on the **OU Users.**
+
 Method: POST
+
 Endpoint: /Users
+
 Request Payload:
 
 	{ 
@@ -57,6 +60,7 @@ Request Payload:
 		"cn":"Marry",
 		"sn":"Doe"
 	}
+	
 Response Payload:
 
 	{
@@ -73,8 +77,11 @@ Response Payload:
 
 **Return all users**
 Returns all users on the **OU Users.**
+
 Method: GET
+
 Endpoint: /Users
+
 Response Payload:
 
 	{
@@ -90,9 +97,13 @@ Response Payload:
 	}
 
 **Search a user**
+
 Searches a users according to the specified uid.
+
 Method: GET
+
 Endpoint: /Users/{uid}
+
 Response Payload:
 
 	{
@@ -108,9 +119,13 @@ Response Payload:
 	}
 
 **Remove user**
+
 Removes the specified user.
+
 Method: DELETE
+
 Endpoint: /Users/{uid}
+
 Response Payload:
 
 	{
